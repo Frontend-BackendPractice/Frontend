@@ -1,0 +1,30 @@
+/* This is a CSS comment */
+
+/* Select the body element and set its background color and font properties */
+body {
+    background-color: #f0f0f0; /* Light grey background */
+    font-family: Arial, sans-serif; /* Set the font to Arial */
+    color: #333; /* Dark grey text color */
+}
+
+/* Select all h1 elements and set their color and text alignment */
+h1 {
+    color: #0056b3; /* Blue text color */
+    text-align: center; /* Center the text */
+}
+
+/* Select all p elements and set their margin and line height */
+p {
+    margin: 20px; /* Add space around the paragraph */
+    line-height: 1.6; /* Set the line height for better readability */
+}
+
+/* Select elements with the class 'highlight' and set their background color */
+.highlight {
+    background-color: #ffff99; /* Light yellow background */
+}
+
+/* Select elements with the id 'main' and set their padding */
+#main {
+    padding: 20px; /* Add padding inside the element */
+}

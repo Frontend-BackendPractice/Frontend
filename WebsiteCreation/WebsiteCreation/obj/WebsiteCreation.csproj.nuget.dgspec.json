@@ -1,30 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\universitet\\visual studio code folder\\repo for practice websites\\frontend-stuff\\Frontend\\WebsiteCreation\\WebsiteCreation\\WebsiteCreation.csproj": {}
+    "d:\\repos\\frontend_repos\\Frontend\\WebsiteCreation\\WebsiteCreation\\WebsiteCreation.csproj": {}
   },
   "projects": {
-    "C:\\universitet\\visual studio code folder\\repo for practice websites\\frontend-stuff\\Frontend\\WebsiteCreation\\WebsiteCreation\\WebsiteCreation.csproj": {
+    "d:\\repos\\frontend_repos\\Frontend\\WebsiteCreation\\WebsiteCreation\\WebsiteCreation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\universitet\\visual studio code folder\\repo for practice websites\\frontend-stuff\\Frontend\\WebsiteCreation\\WebsiteCreation\\WebsiteCreation.csproj",
+        "projectUniqueName": "d:\\repos\\frontend_repos\\Frontend\\WebsiteCreation\\WebsiteCreation\\WebsiteCreation.csproj",
         "projectName": "WebsiteCreation",
-        "projectPath": "C:\\universitet\\visual studio code folder\\repo for practice websites\\frontend-stuff\\Frontend\\WebsiteCreation\\WebsiteCreation\\WebsiteCreation.csproj",
+        "projectPath": "d:\\repos\\frontend_repos\\Frontend\\WebsiteCreation\\WebsiteCreation\\WebsiteCreation.csproj",
         "packagesPath": "C:\\Users\\416ma\\.nuget\\packages\\",
-        "outputPath": "C:\\universitet\\visual studio code folder\\repo for practice websites\\frontend-stuff\\Frontend\\WebsiteCreation\\WebsiteCreation\\obj\\",
+        "outputPath": "d:\\repos\\frontend_repos\\Frontend\\WebsiteCreation\\WebsiteCreation\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\416ma\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+          "C:\\Users\\416ma\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -67,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
