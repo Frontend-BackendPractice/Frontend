@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\repos\\frontend_repos\\Frontend\\WebsiteCreation\\WebsiteCreation\\WebsiteCreation.csproj": {}
+    "D:\\repos\\frontend_repos\\Frontend\\WebsiteCreation\\WebsiteCreation\\WebsiteCreation.csproj": {}
   },
   "projects": {
-    "d:\\repos\\frontend_repos\\Frontend\\WebsiteCreation\\WebsiteCreation\\WebsiteCreation.csproj": {
+    "D:\\repos\\frontend_repos\\Frontend\\WebsiteCreation\\WebsiteCreation\\WebsiteCreation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\repos\\frontend_repos\\Frontend\\WebsiteCreation\\WebsiteCreation\\WebsiteCreation.csproj",
+        "projectUniqueName": "D:\\repos\\frontend_repos\\Frontend\\WebsiteCreation\\WebsiteCreation\\WebsiteCreation.csproj",
         "projectName": "WebsiteCreation",
-        "projectPath": "d:\\repos\\frontend_repos\\Frontend\\WebsiteCreation\\WebsiteCreation\\WebsiteCreation.csproj",
+        "projectPath": "D:\\repos\\frontend_repos\\Frontend\\WebsiteCreation\\WebsiteCreation\\WebsiteCreation.csproj",
         "packagesPath": "C:\\Users\\416ma\\.nuget\\packages\\",
-        "outputPath": "d:\\repos\\frontend_repos\\Frontend\\WebsiteCreation\\WebsiteCreation\\obj\\",
+        "outputPath": "D:\\repos\\frontend_repos\\Frontend\\WebsiteCreation\\WebsiteCreation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\416ma\\AppData\\Roaming\\NuGet\\NuGet.Config"

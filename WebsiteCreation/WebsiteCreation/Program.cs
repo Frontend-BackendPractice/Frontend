@@ -6,8 +6,7 @@ builder.Services.AddControllersWithViews();
 var app = builder.Build();
 
 app.UseStaticFiles();
-//app.MapFallbackToFile("html/index.html");
-app.UseDefaultFiles();
+app.MapFallbackToFile("html/index.html");
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
