@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <title>Website Creation (demo)</title>
     <link rel="stylesheet" href="/css/site.css" /> <!-- link to css file. the .. makes it so it goes correct-->
+    <script defer src="/js/music.js"></script> <!-- link to js file -->
 </head>
 </body>
 
 <!-- div class for the title and the lava blobs-->
 <div class="lava-box">
     <h1 class="lava-title">JavaJam Coffee House</h1>
-    <div class="picture-background"></div>
 </div>
-  
-    <!-- link navigation menu put soem specific html side -->
-    <nav>
-        <a href="/html/index.html">Home</a>
-        <a href="/html/menu.html">Menu</a>
-        <a href="/html/music.html">Music</a>
-        <a href="">Jobs</a>
-    </nav>
+
+<!-- link navigation menu put soem specific html side -->
+<nav>
+    <a href="/html/index.html">Home</a>
+    <a href="/html/menu.html">Menu</a>
+    <a href="/html/music.html">Music</a>
+    <a href="">Jobs</a>
+</nav>
+
+<!-- nav = makes em side by side -->
+ <nav class="menu-box">
     <!-- list of menu items / stuff to do-->
     <ul>
         <li>Speciality coffee and tea</li>
@@ -27,14 +31,33 @@
         <li>Music and poetry readings</li>
         <li>Open mic night</li>
     </ul>
-    <!-- paragraph and break line -->
-    <p>12312 Main Street<br>Mountain Home, CA 93923<br>1-888-555-5555</p>
-
-        <!-- email link that goes to standard browser default mail
-             both are put in same paragraph to put them closer together-->
-    <p><i>Copyright &copy 2013 JavaJam Coffee House</i> <br> 
-        <i><a href="mailto:peter@Madsen.com">Peter@Madsen.com</a></i></p>
-
+    <!-- picture -->
+     <figure class="coffeeAnimation">
+        <img src="images/coffee.gif" />
+     </figure>
     
+ </nav>
+
+ <!-- paragraph and break line -->
+<p>12312 Main Street<br>Mountain Home, CA 93923<br>1-888-555-5555</p>
+
+
+<!-- email link that goes to standard browser default mail
+             both are put in same paragraph to put them closer together-->
+<footer>
+    <div class="footerText-box1">
+        <div class="leftSide-box1">
+            <p>
+                <i>Copyright &copy 2013 JavaJam Coffee House mail:  </i>
+                <i><a href="mailto:peter@Madsen.com">Peter@Madsen.com</a></i>
+            </p>
+        </div>
+        <div class="rightSide-box1">
+            <!-- JS added to this-->
+        </div>
+    </div>
+</footer>
+
 </body>
-</html> 
+
+</html>
