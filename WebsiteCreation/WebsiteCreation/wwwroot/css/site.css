@@ -8,7 +8,7 @@ body {
     color: #333333; /* Dark grey text color */
 }
 
-
+/* for title box*/
 .lava-box{
     position: relative; /* Set the font size to 50 pixels */
     display: flex;  
@@ -26,20 +26,78 @@ body {
     text-align: center;
 }
 
-/* fix the coffee animation so that it follows the right wall*/
-.menu-box{
+
+/*title*/
+.lava-title{
+    font-size: 50px; /* Set the font size to 50 pixels */
+    font-weight: bold;
+    color: #434343;
+    position: relative;
+    z-index: 2; /* Ensures text stays on top of the background */
+    
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Select all p elements and set their margin and line height */
+.p {
+    margin: 20px; /* Add space around the paragraph */
+    line-height: 1.6; /* Set the line height for better readability */
+}
+
+/* Select elements with the class 'highlight' and set their background color */
+.highlight {
+    background-color: #222222; /* Light yellow background */
+}
+
+/* Select elements with the id 'main' and set their padding */
+#main {
+    padding: 20px; /* Add padding inside the element */
+}
+
+
+
+
+/* for index.html text and animation outerbox*/
+.home-box{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    gap: 100px;
 
 }
 
+/* list from index.html*/
+.home-list {
+    background-color: #fbbdd1b3;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+
+}
+/*gif box*/
+.coffeeAnimation-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #fbbdd1b3;
+    border-radius: 20px;
+
+}
+
+/*gif itself*/
 .coffeeAnimation img{
-height: 200px;
-width: 200px;
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* scale image to fit the container */
+    display: block; /* remove extra space below image */
+    
 }
 
+
+
+/* footer starts from here.*/
 .footerText-box1 {
     display: flex;
     justify-content: space-between;
@@ -62,34 +120,8 @@ width: 200px;
     font-size: 13px;
 }
 
-.lava-title{
-    font-size: 50px; /* Set the font size to 50 pixels */
-    font-weight: bold;
-    color: #434343;
-    position: relative;
-    z-index: 2; /* Ensures text stays on top of the background */
-    
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-}
 
 
 
 
-/* Select all p elements and set their margin and line height */
-.p {
-    margin: 20px; /* Add space around the paragraph */
-    line-height: 1.6; /* Set the line height for better readability */
-}
 
-/* Select elements with the class 'highlight' and set their background color */
-.highlight {
-    background-color: #222222; /* Light yellow background */
-}
-
-
-
-
-/* Select elements with the id 'main' and set their padding */
-#main {
-    padding: 20px; /* Add padding inside the element */
-}
