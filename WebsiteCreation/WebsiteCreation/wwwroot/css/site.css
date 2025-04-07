@@ -1,13 +1,14 @@
 /* This is a CSS comment */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+
+/* header and body settings*/
 /* Select the body element and set its background color and font properties */
 body {
-    background-color: #ffddddb3; /* Light grey background */
+    background-color: #ecd4e0c5; /* Light grey background */
     font-family:'Bebas Neue', sans-serif; /* Set the font to Arial */
     color: #333333; /* Dark grey text color */
 }
-
 /* for title box*/
 .lava-box{
     position: relative; /* Set the font size to 50 pixels */
@@ -16,17 +17,15 @@ body {
     justify-content: center;
     width: 100%;
     height: 100px;
-    background: #6e605d52;
-    border-radius: 20px;
+    background: #edafb7;
+    border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(14, 14, 14, 0.5);
+    box-shadow: 0 0 20px #ea808e;
 
     /* centering box on website */
-    margin: 50px auto;
+    margin: 40px auto;
     text-align: center;
 }
-
-
 /*title*/
 .lava-title{
     font-size: 50px; /* Set the font size to 50 pixels */
@@ -35,39 +34,60 @@ body {
     position: relative;
     z-index: 2; /* Ensures text stays on top of the background */
     
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 2px #edafb7;
 }
-
 /* Select all p elements and set their margin and line height */
 .p {
     margin: 20px; /* Add space around the paragraph */
     line-height: 1.6; /* Set the line height for better readability */
 }
-
 /* Select elements with the class 'highlight' and set their background color */
 .highlight {
-    background-color: #222222; /* Light yellow background */
+    background-color: #000000; /* Light yellow background */
 }
-
 /* Select elements with the id 'main' and set their padding */
 #main {
     padding: 20px; /* Add padding inside the element */
 }
 
+/* links for each side*/
+.nav-box{
+    display: flex;
+    justify-content: space-around;
+}
+.a-Home,
+.a-Menu,
+.a-Music,
+.a-Jobs{
+    color : #434343; /* Dark grey text color */
+    background-color: #fbbdd1b3;
+    padding: 5px 50px; /* Add padding inside the element */
+    border-radius: 20px;
+}
 
 
+/* index.html (home) settings*/
+/* color for standard display boxes*/
+.home-list, 
+.coffeeAnimation-box,
+.menu-outerBox{
+    background-color: #fbbdd1b3;
+}
 
 /* for index.html text and animation outerbox*/
 .home-box{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    
 }
 
 /* list from index.html*/
 .home-list {
-    background-color: #fbbdd1b3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
     border-radius: 20px;
     height: 200px;
     width: 200px;
@@ -81,13 +101,12 @@ body {
     width: 200px;
     height: 200px;
     overflow: hidden;
-    background-color: #fbbdd1b3;
     border-radius: 20px;
 
 }
 
 /*gif itself*/
-.coffeeAnimation img{
+.coffeeAnimation-box img{
     width: 100%;
     height: auto;
     object-fit: contain; /* scale image to fit the container */
@@ -95,6 +114,37 @@ body {
     
 }
 
+.menu-outerBox{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50px;;
+    padding: 20px;
+    background-color: #edafb7;
+
+}
+.line-through{
+    background-color: #000000; /* Light yellow background */
+    width: 400px;
+    height: 4px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #facfd5;
+    
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
 
 
 /* footer starts from here.*/
@@ -102,10 +152,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #6e605d52;
+    background: #edafb7;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(14, 14, 14, 0.5);
+    
+    box-shadow: 0 0 20px #ea808e;
 }
 
 .leftSide-box1 {

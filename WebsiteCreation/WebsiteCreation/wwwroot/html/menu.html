@@ -4,37 +4,53 @@
 <head>
     <meta charset="utf-8" />
     <title>Website Creation (demo)</title>
-    <link rel="stylesheet" href="/css/site.css" />
-    <script defer src="/js/music.js"></script> <!-- link to js file -->
+    <link rel="stylesheet" href="../css/site.css" />
+    <script defer src="../js/music.js"></script> <!-- link to js file -->
 </head>
 
 <body>
     <div class="lava-box">
         <h1 class="lava-title">JavaJam Coffee House</h1>
     </div>
-    <nav>
-        <a href="/html/index.html">Home</a>
-        <a href="/html/menu.html">Menu</a>
-        <a href="/html/music.html">Music</a>
-        <a href="">Jobs</a>
+    <nav class="nav-box">
+        <a class="a-Home" href="../html/index.html">Home</a>
+        <a class="a-Menu" href="../html/menu.html">Menu</a>
+        <a class="a-Music" href="../html/music.html">Music</a>
+        <a class="a-Jobs" href="">Jobs</a>
     </nav>
+
     <!-- Description list with bold headers-->
-    <dl>
-        <dt><b>Just Java</b></dt>
-        <dd>Regular house blend, decaffinated coffee, or flavor of the day <br>
-            Endles cup $2.00</dd>
-        <dt><b>Cafe au Lait</b></dt>
-        <dd>House blended coffee infused into a smooth, steamed milk <br>
-            Single $2.00 Double $3.00</dd>
-        <dt><b>Iced Cappuccino</b></dt>
-        <dd>Sweetened espresso blended with icy-cold milk and served in a chilled glass <br>
-            Single $4.75 Double $5.75</dd>
+    <dl class="menu-outerBox">
+        <div class="menu">
+            <dt><b>Just Java</b></dt>
+            <dd>Regular house blend, decaffinated coffee, or flavor of the day <br>
+                Endles cup $2.00
+            </dd>
+
+        <hr class="line-through">
+        </hr>
+
+            <dt><b>Cafe au Lait</b></dt>
+            <dd>House blended coffee infused into a smooth, steamed milk <br>
+                Single $2.00 Double $3.00
+            </dd>
+
+        <hr class="line-through">
+        </hr>
+
+            <dt><b>Iced Cappuccino</b></dt>
+            <dd>Sweetened espresso blended with icy-cold milk and served in a chilled glass <br>
+                Single $4.75 Double $5.75</dd>
+
+        </div>
+
+
     </dl>
     <footer>
         <div class="footerText-box1">
             <div class="leftSide-box1">
                 <p>
-                    <i>Copyright &copy 2013 JavaJam Coffee House mail:  </i>
+                    <i>Copyright &copy 2013 JavaJam Coffee House mail: </i>
                     <i><a href="mailto:peter@Madsen.com">Peter@Madsen.com</a></i>
                 </p>
             </div>
